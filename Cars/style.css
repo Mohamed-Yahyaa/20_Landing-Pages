@@ -94,10 +94,10 @@ header{
 .search-box{
   position: absolute;
   top: 110%;
-  right: O;
-  left: 0;
+  right: 220px;
+  left: 20px;
   background: var(--bg-color);
-  box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
+  box-shadow: 4px 4px 20px rgb(15 54 55 / 30%);
   border: 1px solid var(--main-color);
   border-radius: 0.5rem;
 }
