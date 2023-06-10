@@ -17,8 +17,9 @@
 
 :root{
     --main-color:#ff9a3c;
-    --text-color:#000000;
-    --bg-color:#ffffff;
+    --text-color:#ffffff;
+    --bg-color:#706c6ccc;
+    --btn-color:#FF2909;
 }
 
 section{
@@ -94,17 +95,19 @@ header{
 #search-icon{
     font-size: 24px;
     cursor: pointer;
+    color: var(--main-color);
 }
 
 .search-box{
   position: absolute;
   top: 110%;
-  right: 220px;
-  left: 20px;
-  background: var(--bg-color);
-  box-shadow: 4px 4px 20px rgb(15 54 55 / 30%);
+  right: 350px;
+  left: 280px;
+  
+  background: rgb(255, 255, 255,0.2);
+  box-shadow: 4px 4px 20px rgba(160, 170, 170, 0.3);
   border: 1px solid var(--main-color);
-  border-radius: 0.5rem;
+  border-radius: 60px;
   clip-path: circle(0% at 100% 0%);
 }
 .search-box.active{
@@ -119,4 +122,44 @@ header{
     background: transparent;
     font-size: 1rem;
 
+}
+.home{
+    max-width: 1400px;
+    margin:auto;
+    width:100%;
+    min-height: 625px;
+    display: flex;
+    align-items: center;
+    background: url(img/Design\ sans\ titre\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+
+
+}
+.home-text {
+    padding-left: 140px;
+
+}
+
+.home-text h1{
+font-size: 3.4rem;
+}
+
+.home-text span {
+    color: var(--main-color);
+}
+.home-text p {
+    font-size: 0.938rem;
+    font-weight: 300;
+    margin: 0.8rem 0 1.2rem;
+}
+.btn {
+    padding: 10px 22px;
+    background: var(--btn-color);
+    color: var(--text-color);
+    font-weight: 400;
+}
+.btn:hover{
+    background: ;
 }
